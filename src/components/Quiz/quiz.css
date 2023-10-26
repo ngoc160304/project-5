@@ -1,0 +1,25 @@
+.form-answer  {
+    width: 800px;
+    margin: 0 auto 70px;
+}
+.form-answer .form {
+
+}
+.form-answer .question-item {
+
+}
+.form-answer .answer-item {
+
+}
+.form-answer .button-submit {
+    background-color: #fff;
+    border: 1px solid #8d8989;
+    padding: 10px;
+    border-radius: 5px;
+}
+.form-answer .button-submit:hover {
+    background-color: orange;
+}
+.form-answer .button-submit:active {
+    background-color: #fff;
+}

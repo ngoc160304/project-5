@@ -1,0 +1,13 @@
+.home {
+    width: 800px;
+    margin: 20px auto 0;
+}
+
+.home .button-home {
+    background: #fff;
+    border: 1px solid #8d8989;
+    padding: 8px 10px;
+    margin: 16px 0;
+    border-radius: 6px;
+    margin-right: 5px;
+}

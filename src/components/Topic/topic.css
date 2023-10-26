@@ -1,0 +1,23 @@
+.table-topic, td, th {
+    border: 1px solid #8d8989;
+    border-collapse: collapse;
+}
+.table-topic {
+    width: 500px;
+    margin: 30px auto;
+}
+.table-topic th, .table-topic td{
+    padding: 10px 10px;
+}
+.table-topic .button-practice {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 8px 10px;
+    cursor: pointer;
+}
+.table-topic .button-practice:hover {
+    background-color: orange;
+}
+.table-topic .button-practice:active {
+    background-color: #fff
+}
