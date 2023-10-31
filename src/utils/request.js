@@ -1,4 +1,4 @@
-const DOMAIN = "http://localhost:4000/"
+const DOMAIN = "https://data-project-5.vercel.app/"
 export const get = async (path) => {
     const response = await fetch(DOMAIN + path);
     const data =  await response.json();
