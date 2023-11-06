@@ -1,0 +1,26 @@
+.home {
+    width: 900px;
+    margin: 47px auto;
+    &__title {
+        font-size: 16.5px;
+    }
+    &__link {
+        display: flex;
+        .ant-btn {
+            margin-right: 10px;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 16px;
+            font-weight: 500;
+        }
+    }
+    &__hr {
+        margin: 10px 0;
+        width: 96%;
+    }
+    &__content {
+        font-size: 16.5px;
+    }
+}

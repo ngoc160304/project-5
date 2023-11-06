@@ -1,0 +1,28 @@
+.red {
+    color: red;
+}
+.green {
+    color: #3dcb3d
+}
+.form-result {
+    width: 900px;
+    margin: 0 auto 90px auto;
+    &__item {
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 20px;
+        margin-bottom: 20px;
+        border: 1px solid #ddd;
+        p {
+            font-size: 16px;
+        }
+    }
+    .ant-btn {
+        padding: 18px 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+        font-weight: 500;
+    }
+}

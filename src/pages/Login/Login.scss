@@ -1,0 +1,40 @@
+.form-login {
+    width: 500px;
+    margin: 62px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    padding: 30px 50px 0;
+    &__title {
+        text-align: center;
+        h2 {
+            margin-top: 0;
+        }
+    }
+    &__account {
+        margin: 0 0 12px 0;
+        &--passowrd {
+            height: 20px !important;
+            input {
+
+                background-color: #ddd;
+            }
+        }
+    }
+    &__button-submit .ant-btn {
+        display: inline-block;
+        padding: 12px 21px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    &__authen {
+        height: 20px;
+        margin: 0 0 12px 0;
+        .ant-col label {
+            color: #ff4d4f;
+        }
+    }
+}

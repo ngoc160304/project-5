@@ -1,0 +1,25 @@
+
+.topic {
+    &-content h2 {
+        text-align: center;
+        margin-bottom: 0;
+    }
+    border: 1px solid #ddd;
+    width: 500px;
+    margin: 27px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    th, td {
+        border: 1px solid #ddd;
+        text-align: center;
+        padding: 15px 20px;
+    }
+    td {
+        font-size: 17px;
+    }
+    .ant-btn {
+        font-size: 15px;
+        font-family: 'Roboto';
+        font-weight: 500;
+    }
+}

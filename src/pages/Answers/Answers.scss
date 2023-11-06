@@ -1,0 +1,22 @@
+.answer {
+    font-family: "Roboto";
+    &-title {
+        text-align: center;
+    }
+    width: 900px;
+    margin: 0 auto 90px auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+    th, td {
+        border: 1px solid #ddd;
+        padding: 10px;
+        text-align: center;
+        font-size: 16px;
+        .ant-btn {
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 1px;
+        }
+    }
+}

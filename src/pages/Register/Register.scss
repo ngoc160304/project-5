@@ -1,0 +1,26 @@
+.form-register {
+    width: 500px;
+    background-color: #fff;
+    margin: 62px auto;
+    padding: 30px 50px 0;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    &__title h2 {
+        margin-top: 0;
+        text-align: center;
+    }
+    &__account {
+        margin: 0;
+    }
+    &__sign-up {
+        margin-top: 8px;
+        .ant-btn {
+            font-weight: 500;
+            margin-top: 6px;
+        }
+    }
+    &__warning {
+        color: #ff3d4f;
+        margin: 6px 0 0 0;
+    }
+}

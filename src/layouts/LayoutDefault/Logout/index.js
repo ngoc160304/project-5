@@ -1,7 +1,7 @@
 import { useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
-import { logout } from "../../action/account";
-import { deleteCookie } from "../../helpers/cookie";
+import { logout } from "../../../action/account";
+import { deleteCookie } from "../../../helpers/cookie";
 
 const Logout = () => {
     const dispatch = useDispatch();
