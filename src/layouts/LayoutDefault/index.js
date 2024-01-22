@@ -43,10 +43,10 @@ const LayoutDefault = () => {
                         ) : (
                             <>
                                 <NavLink to="/login">
-                                    Login
+                                    Đăng nhập
                                 </NavLink>
                                 <NavLink to="/register">
-                                    Register
+                                    Đăng ký
                                 </NavLink>
                             </>
                         )}

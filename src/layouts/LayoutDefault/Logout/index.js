@@ -12,7 +12,7 @@ const Logout = () => {
     }
     return (
         <>
-            <Link to="/" onClick={handleLogout}>Log out</Link>
+            <Link to="/" onClick={handleLogout}>Đăng xuất</Link>
         </>
     )
 }

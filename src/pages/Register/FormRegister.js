@@ -77,7 +77,7 @@ const FormRegister = (props) => {
                 </p>
             }
             <Form.Item className="form-register__sign-up">
-                <Button htmlType="submit" loading={loading}>Sign Up</Button>
+                <Button htmlType="submit" loading={loading}>Đăng ký</Button>
             </Form.Item>
         </>
     )

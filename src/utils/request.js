@@ -1,4 +1,4 @@
-const DOMAIN = "https://jjryt6-8080.csb.app/"
+const DOMAIN = "https://quiz-xgm4.onrender.com/"
 // const DOMAIN = " http://localhost:4000/"
 export const get = async (path) => {
     const response = await fetch(DOMAIN + path);

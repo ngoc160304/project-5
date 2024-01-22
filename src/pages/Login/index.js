@@ -89,7 +89,7 @@ const Login = () => {
                
                <Form.Item className="form-login__button-submit">
                     <Button htmlType="submit" loading={loading}>
-                        Login
+                        Đăng nhập
                     </Button>
                 </Form.Item>
         </Form>
